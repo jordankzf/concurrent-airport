@@ -62,15 +62,15 @@ The Runway will only create an output at the end of the program, printing the us
 ## Testing
 
 10,000 aircrafts were created to test the fairness and robustness of this program.
-![](../master/images/report.png)
+<img src="images/report.png">
 
 If the program were to be 100% fair, each runway would have been used exactly 3333.33 times. In practice, it is almost impossible unless the program was specifically coded to ensure maximum fairness which would most certainly affect performance. To calculate the actual fairness, we will use Jain&#39;s fairness index. The equation is as follows:
 
-![](../master/images/equation.png)
+<img src="images/equation.png">
 
 To calculate the coefficient of variation:
 
-![](../master/images/variation.png)
+<img src="images/variation.png">
 
 Based on the results of the program:
 
