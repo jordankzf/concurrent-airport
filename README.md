@@ -48,7 +48,7 @@ Finally, once all generated aircrafts have been assigned a runway and the queue 
 
 ## Output
 
-![](../master/images/output.png)
+<img src="images/output.png">
 
 Each line will print the current time, followed by the aircraft identified by its ID, and the action done. An aircraft can have the following states/actions:
 
