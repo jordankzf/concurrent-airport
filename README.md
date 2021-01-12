@@ -48,7 +48,7 @@ Finally, once all generated aircrafts have been assigned a runway and the queue 
 
 ## Output
 
-![](../images/output.png)
+![](../master/images/output.png)
 
 Each line will print the current time, followed by the aircraft identified by its ID, and the action done. An aircraft can have the following states/actions:
 
@@ -62,15 +62,15 @@ The Runway will only create an output at the end of the program, printing the us
 ## Testing
 
 10,000 aircrafts were created to test the fairness and robustness of this program.
-![](../images/report.png)
+![](../master/images/report.png)
 
 If the program were to be 100% fair, each runway would have been used exactly 3333.33 times. In practice, it is almost impossible unless the program was specifically coded to ensure maximum fairness which would most certainly affect performance. To calculate the actual fairness, we will use Jain&#39;s fairness index. The equation is as follows:
 
-![](../images/equation.png)
+![](../master/images/equation.png)
 
 To calculate the coefficient of variation:
 
-![](../images/variation.png)
+![](../master/images/variation.png)
 
 Based on the results of the program:
 
